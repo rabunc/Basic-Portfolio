@@ -1,0 +1,13 @@
+
+body {
+    background-image: url("/assets/images/playstation/playstation-pattern.png");
+}
+
+h1 {
+    color: blue;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+}
