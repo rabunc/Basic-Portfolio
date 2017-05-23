@@ -1,3 +1,19 @@
+header {
+
+}
+
+#logo {
+    float: left;
+}
+
+#menu {
+    float: left;
+    font-size: 20px;
+    padding: 25px;
+    margin-right: 50px;
+    margin-left: 500px;
+    color: #4aaaa5;
+}
 
 body {
     background-image: url("../images/playstation/playstation-pattern.png");
@@ -8,8 +24,8 @@ h1 {
     color: blue;
 }
 
+
 h2 {
-    padding: 10px;
 }
 
 #profile-pic {
@@ -22,16 +38,16 @@ button {
 }
 
 #form-box {
+    width: 650px;
     height: 500px;
-    width: 400px;
     padding: 50px;
-    background-color: grey;
+    background-color: white;
     float: left;
 }
 
 #connect-box {
-    height: 400px;
-    width: 300px;
+    height: 250px;
+    width: 270px;
     padding: 10px;
     background-color: yellow;
     padding: 20px;
@@ -55,20 +71,22 @@ footer {
 }
 
 section {
+
 }
 
 #about-me {
-    width: 500px;
+    width: 650px;
     height: 400px;
     background-color: lightblue;
     float: left;
 }
 
 #portfolio {
-    width: 300px;
+    width: 650px;
     height: 500px;
     background-color: lightyellow;
     float: left;
+    padding: 20px;
 }
 
 img {
@@ -80,10 +98,15 @@ p {
 }
 
 .icon {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 70px;
+    max-height: 90px;
 }
 
 li {
     display:inline;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
 }
