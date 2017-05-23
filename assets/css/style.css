@@ -1,10 +1,15 @@
 
 body {
     background-image: url("../images/playstation/playstation-pattern.png");
+    padding: 10px;
 }
 
 h1 {
     color: blue;
+}
+
+h2 {
+    padding: 10px;
 }
 
 #profile-pic {
@@ -14,4 +19,71 @@ h1 {
 
 button {
     margin: 10px 0px;
+}
+
+#form-box {
+    height: 500px;
+    width: 400px;
+    padding: 50px;
+    background-color: grey;
+    float: left;
+}
+
+#connect-box {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    background-color: yellow;
+    padding: 20px;
+    float: left;
+}
+
+#content {
+    width:100%;
+    height: 1000px;
+    background-color: lightcoral;
+    float:left;
+}
+
+footer {
+    background-color: #666666;
+    height: 60px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    clear: both;
+}
+
+section {
+}
+
+#about-me {
+    width: 500px;
+    height: 400px;
+    background-color: lightblue;
+    float: left;
+}
+
+#portfolio {
+    width: 300px;
+    height: 500px;
+    background-color: lightyellow;
+    float: left;
+}
+
+img {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.icon {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+li {
+    display:inline;
 }
