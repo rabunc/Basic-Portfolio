@@ -26,7 +26,8 @@ header {
 
 main {
     background-image: url("../images/playstation/playstation-pattern.png");
-    padding: 20px;
+    padding: 60px;
+    font: font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
 
@@ -41,13 +42,16 @@ main {
 
 body {
     padding: 10px;
+    
 }
 
 h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
-h2 {
+h2 h3 h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #profile-pic {
@@ -62,9 +66,11 @@ button {
 #form-box {
     width: 650px;
     height: 500px;
-    padding: 50px;
+    padding: 30px;
     background-color: white;
     float: left;
+    color: #4aaaa5;
+
 }
 
 #connect-box {
@@ -74,6 +80,8 @@ button {
     background-color: white;
     padding: 20px;
     float: right;
+    color: #4aaaa5;
+
 }
 
 .content {
@@ -82,7 +90,7 @@ button {
     padding: 20px;
     float:left;
     margin: 20px;
-    color: #777777;
+    color: #4aaaa5;
 }
 
 footer {
@@ -91,11 +99,12 @@ footer {
     height: 60px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 10px;
     clear: both;
     border-top: #4aaaa5;
     border-width: 4px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 section {
@@ -117,6 +126,8 @@ section {
     background-color: white;
     float: left;
     padding: 20px;
+    color: #4aaaa5;
+
 }
 
 img {
