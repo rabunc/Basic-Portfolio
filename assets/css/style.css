@@ -1,9 +1,33 @@
-header {
-
-}
 
 #logo {
     float: left;
+    height: 100px;
+    width: 250px;
+    background-color: #4aaaa5;
+    color: white;
+    align-content: center;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+header {
+    width: 100%;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+main {
+    background-image: url("../images/playstation/playstation-pattern.png");
+    padding: 20px;
+
 }
 
 #menu {
@@ -16,12 +40,10 @@ header {
 }
 
 body {
-    background-image: url("../images/playstation/playstation-pattern.png");
     padding: 10px;
 }
 
 h1 {
-    color: blue;
 }
 
 
@@ -49,25 +71,31 @@ button {
     height: 250px;
     width: 270px;
     padding: 10px;
-    background-color: yellow;
+    background-color: white;
     padding: 20px;
-    float: left;
+    float: right;
 }
 
-#content {
-    width:100%;
+.content {
+    width: 960px;
     height: 1000px;
-    background-color: lightcoral;
+    padding: 20px;
     float:left;
+    margin: 20px;
+    color: #777777;
 }
 
 footer {
     background-color: #666666;
+    vertical-align: middle;
     height: 60px;
     text-align: center;
     color: white;
     padding: 20px;
     clear: both;
+    border-top: #4aaaa5;
+    border-width: 4px;
+    margin-top: 5px;
 }
 
 section {
@@ -77,14 +105,16 @@ section {
 #about-me {
     width: 650px;
     height: 400px;
-    background-color: lightblue;
+    background-color: white;
     float: left;
+    padding: 20px;
+    color: #4aaaa5;
 }
 
 #portfolio {
     width: 650px;
-    height: 500px;
-    background-color: lightyellow;
+    height: 1000px;
+    background-color: white;
     float: left;
     padding: 20px;
 }
@@ -110,3 +140,39 @@ li {
     width: 200px;
     height: 200px;
 }
+
+.project {
+    position: relative;
+    width: 200px;
+    float: left;
+    margin: 30px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#menu ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#menu li:not(:first-child):before {
+    content: "  |  ";
+}
+
