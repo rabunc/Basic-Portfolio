@@ -74,7 +74,7 @@ button {
 }
 
 #connect-box {
-    height: 250px;
+    height: 200px;
     width: 270px;
     padding: 10px;
     background-color: white;
@@ -143,6 +143,10 @@ p {
     max-height: 90px;
 }
 
+.icon:hover {
+    background-color: gold;
+}
+
 li {
     display:inline;
 }
@@ -187,3 +191,11 @@ li {
     content: "  |  ";
 }
 
+a:hover {
+    color: orange;
+
+}
+
+#blurb {
+    margin: 10px;
+}
